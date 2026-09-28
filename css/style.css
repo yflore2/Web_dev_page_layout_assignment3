@@ -12,13 +12,12 @@ body {
   padding: 15px 20px;
   background-color: #ffffff;
   position: relative;
-
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 80px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 80px;
 }
 
 .logo img {
@@ -39,4 +38,37 @@ body {
   color: red;
   font-family: "Homemade Apple", cursive;
   white-space: nowrap;
+}
+
+#herosection {
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgb(246, 177, 177, .25%);
+}
+
+.herocopy {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  color: #f9E7e7;
+}
+
+#heroimage{
+    display: flex;
+    width: 100%;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
